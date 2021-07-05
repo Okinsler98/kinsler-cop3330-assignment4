@@ -1,6 +1,8 @@
 @startuml
 'https://plantuml.com/class-diagram
 
+org.javafx.Application <|--App
+
 ListManager *-> ListItem
 ListManager <-- FileManager
 GuiManager *-> ListManager
@@ -43,6 +45,7 @@ Class ListItem{
     name : String
     description : String
     dueDate : String
+    status : Boolean
 
     updateName(String)
     updateDescription(String)
