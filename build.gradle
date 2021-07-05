@@ -21,10 +21,10 @@ test {
 }
 
 javafx {
-    version '16'
+    version = '16'
     modules = [ 'javafx.controls', 'javafx.fxml']
 }
 
 application {
-    mainClass = 'ucs.assignments.App'
+    mainClass = 'ucf.assignments.App'
 }
